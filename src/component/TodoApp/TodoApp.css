@@ -1,24 +1,59 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     background-color: rgb(132, 132, 219);
 }
 
-.todo-container{
+.todo-container {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 500px;
-    border: 1px solid black;
     text-align: center;
 }
 
-.todo-container h1{
+.todo-container h1 {
     font-size: 50px;
-    color: white;
+    color: rgba(40, 27, 27, 0.685);
+    margin: 0;
+    margin-bottom: 20px;
 }
 
+.input-section {
+    background-color: #e6e6e6;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #0000002c;
+}
 
+.input-section input {
+    box-sizing: border-box;
+    border-radius: 6px;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-family: tahoma;
+    font-size: medium;
+    letter-spacing: 1px;
+}
 
+.input-section::placeholder {
+    color: silver;
+}
+ul {
+    text-align: left;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    background-color: #e6e6e6;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px #0000002c;
+}
