@@ -46,9 +46,12 @@ body {
 ul {
     text-align: left;
     padding: 0;
+   
 }
 
 ul li {
+    display: flex;
+    align-items: center;
     list-style-type: none;
     background-color: #e6e6e6;
     line-height: 30px;
@@ -56,4 +59,11 @@ ul li {
     padding-left: 10px;
     border-radius: 6px;
     box-shadow: 0 4px 6px #0000002c;
+}
+
+ul li i{
+text-align: right;
+flex: 1;
+cursor: pointer;
+padding:5px;
 }
