@@ -48,7 +48,7 @@ class TodoApp extends Component {
                     {itemArray.map((data, index) => (
                         <li key={index}>
                             {data}
-                            <i className="fa-solid fa-pen"></i>
+
                             <i
                                 className="fa-solid fa-trash-can"
                                 onClick={() => this.deleteItem(index)}
