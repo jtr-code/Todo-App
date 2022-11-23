@@ -58,16 +58,11 @@ ul li {
     box-shadow: 0 4px 6px #0000002c;
 }
 
-ul li .fa-pen {
+ul li i {
     text-align: right;
     flex: 1;
     padding: 10px;
 }
-
-ul li .fa-trash-can{
-    padding-right: 10px;
-}
-
 
 ul li i:hover {
     cursor: pointer;
