@@ -56,6 +56,12 @@ class TodoApp extends Component {
                         </li>
                     ))}
                 </ul>
+                <footer>
+                    Designed and Developed by
+                    <a href="https://github.com/jtr-code">
+                        <span> jtr-code</span>
+                    </a>
+                </footer>
             </div>
         );
     }
