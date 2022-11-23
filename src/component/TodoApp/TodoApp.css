@@ -67,3 +67,20 @@ ul li i {
 ul li i:hover {
     cursor: pointer;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+   
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: rgb(13, 57, 190);
+    cursor: pointer;
+}
