@@ -6,7 +6,7 @@ body {
 }
 
 .todo-container {
-   margin: auto ;
+    margin: auto;
     text-align: center;
     width: 450px;
     margin-top: 75px;
@@ -58,11 +58,16 @@ ul li {
     box-shadow: 0 4px 6px #0000002c;
 }
 
-ul li i {
+ul li .fa-pen {
     text-align: right;
     flex: 1;
-    padding: 5px;
+    padding: 10px;
 }
+
+ul li .fa-trash-can{
+    padding-right: 10px;
+}
+
 
 ul li i:hover {
     cursor: pointer;
