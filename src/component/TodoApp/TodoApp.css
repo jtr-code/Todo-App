@@ -67,3 +67,7 @@ flex: 1;
 cursor: pointer;
 padding:5px;
 }
+
+ul li i:hover{
+    color: rgb(196, 5, 5);
+}
