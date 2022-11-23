@@ -6,13 +6,20 @@ class TodoApp extends Component {
         return (
             <div className="todo-container">
                 <form className="input-section">
-                <h1>Todo App</h1>
+                    <h1>Todo App</h1>
+
                     <input type="text" placeholder="Enter the items..." />
                 </form>
                 <ul>
-                    <li>items</li>
-                    <li>items</li>
-                    <li>items</li>
+                    <li>
+                        item <i className="fa-solid fa-trash-can"></i>
+                    </li>
+                    <li>
+                        item <i className="fa-solid fa-trash-can"></i>
+                    </li>
+                    <li>
+                        item <i className="fa-solid fa-trash-can"></i>
+                    </li>
                 </ul>
             </div>
         );
